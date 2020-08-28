@@ -1,0 +1,51 @@
+
+\newcommand \dunderline[3][-1pt]{{%
+		\setbox0=\hbox{#3}
+		\ooalign{\copy0\cr\rule[\dimexpr#1-#2\relax]{\wd0}{#2}}}}
+	
+\begin{titlepage}
+  \vspace*{1cm}
+  \centering
+  		
+	\includegraphics[scale = 0.5]{fig/NCEPU_logo.png}
+  
+  \vspace{1cm}
+
+  \zihao{1}\textbf{{本科生毕业论文（设计）}}
+  
+  \vspace{14mm}
+
+  \zihao{1}\textbf{ 我是大标题XXXX}
+
+  \vspace{3mm}
+
+%  \begin{spacing}{1.2}
+%    \LARGE\selectfont{\textbf{\heiti ——我是小标题}}
+%  \end{spacing}
+
+  \vspace{10mm}
+
+\begin{flushleft}
+	  \begin{spacing}{1.3}
+		\hspace{27mm}\LARGE\selectfont{\textbf{论文编码：}\dunderline[-3pt]{1pt}{\makebox[78mm][c]{XXXXXXXX}}}
+		
+		\hspace{27mm}\LARGE\selectfont{\textbf{学\hspace{12.5mm}院：}\dunderline[-3pt]{1pt}{\makebox[78mm][c]{电气与电子工程学院}}}
+		
+		\hspace{27mm}\LARGE\selectfont{\textbf{专\hspace{12.5mm}业：}\dunderline[-3pt]{1pt}{\makebox[78mm][c]{电气工程及其自动化}}}
+		
+		\hspace{27mm}\LARGE\selectfont{\textbf{年\hspace{12.5mm}级：}\dunderline[-3pt]{1pt}{\makebox[78mm][c]{2017级}}}
+		
+		\hspace{27mm}\LARGE\selectfont{\textbf{学\hspace{12.5mm}号：}\dunderline[-3pt]{1pt}{\makebox[78mm][c]{120171030408}}}
+		
+		\hspace{27mm}\LARGE\selectfont{\textbf{学生姓名：}\dunderline[-3pt]{1pt}{\makebox[78mm][c]{付裕恒}}}
+		
+		\hspace{27mm}\LARGE\selectfont{\textbf{指导教师：}\dunderline[-3pt]{1pt}{\makebox[78mm][c]{XX}}}
+		
+		\hspace{27mm}\LARGE\selectfont{\textbf{完成日期：}\dunderline[-3pt]{1pt}{\makebox[78mm][c]{XXXXX}}}
+	\end{spacing}
+\end{flushleft}
+
+
+  \vspace{25mm}
+
+\end{titlepage}

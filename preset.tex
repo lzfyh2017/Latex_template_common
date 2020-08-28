@@ -1,0 +1,86 @@
+%-+- coding:UTF-8  -+-
+%fyh的常用模板
+%readme-----------------------------------------------------%
+%包含以下部分的定义：
+%0、定义文章类别为报告形式
+%1、引用宏包：
+%2、定义页面：纸张大小、页眉页脚等
+%3、字体字号设置-标题、正文等
+%4、图片、公式相关设置
+%5、引用参考文献设置
+%readme-----------------------------------------------------%
+
+
+%0、定义文章类型
+\documentclass[UTF8,a4paper]{ctexrep}  
+
+
+%1、引用宏包---------------------------------------------------%
+\usepackage{ctex}   %中文宏包
+\usepackage{geometry}  %设置页面大小
+\usepackage[hidelinks]{hyperref}   
+\usepackage{amsmath}	%数学公式编号宏包
+\usepackage{cite}        %引用宏包
+\usepackage{url}		 %网页引用链接
+\usepackage{graphicx}    %图片宏包
+\usepackage{subfigure}   %子图宏包
+\usepackage{caption}	%注释宏包
+\usepackage{listings}    %插入代码包
+\usepackage{xcolor}
+\usepackage{fontspec} 
+\usepackage{xeCJK}		%中文字体
+\usepackage{setspace}
+%引用宏包---------------------------------------------------%
+
+
+%2、定义页面：纸张大小、页眉页脚等------------------------------------------------%
+%纸张规格为A4 ；版面上空2.5cm,下空2cm,左空2.5 cm，右空2 cm
+\geometry{left=2.5cm,right=2cm,top=2.5cm,bottom=2cm}
+
+%%设置页眉页脚
+%\fancypagestyle{plain}{%
+%
+%\fancyhf{} % 清空当前设置
+%
+%%设置页眉 (head)
+%\fancyhead[L,R]{}
+%\fancyhead[C]{华北电力大学xxxxx}
+%\pagestyle{fancy}
+%%设置页眉页脚
+%定义页面：纸张大小、页眉页脚等------------------------------------------------%
+
+
+%3、字体字号设置-标题、正文等--------------------------------------------%
+% 正文中文字体字号：宋体小四  正文英文字体字号：新罗马字体 
+%\newcommand{\textch}{\setmainfont{SimSun}\zihao{-4}}
+\setCJKmainfont{SimSun} 
+\newcommand{\textsize}{\zihao{-4}}
+\setmainfont{Times New Roman}
+
+%添加关键词关键词三个字左顶格，用宋体小四号加粗，3-5个关键词用宋体小四号，
+%词于词之间用逗号隔开，最后一个词不加任何标点符号。
+%关键词左顶格，Times New Roman字体、小四加粗，3-5个关键词Times New Roman字体、小四号，
+
+% 设置标题字体样式
+\ctexset{
+	chapter = {
+		format+ = \setmainfont{SimHei}\zihao{1},
+	},
+}
+%字体字号设置-标题、正文等--------------------------------------------%  
+
+
+%4、图片、公式相关设置------------------------------------------%
+\numberwithin{figure}{section}  %分章节显示图片
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}   %分章节显示公式
+%图片、公式相关设置------------------------------------------%
+
+
+%5、参考文献设置---------------------------------------------------%
+\bibliographystyle{plain}
+%参考文献设置---------------------------------------------------%
+
+
+%\title{磁化动力学基础及仿真分析}
+%\author{付裕恒}
+%\date{\today}
