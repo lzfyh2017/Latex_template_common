@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.8.28)  28 AUG 2020 17:15
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.8.28)  29 AUG 2020 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**template.tex
-(./template.tex
+**main.tex
+(./main.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-08-07> (./preset.tex
+L3 programming layer <2020-08-07> (./sub/preset.tex
 (d:/ProgramFiles/LaTex/texlive/2020/texmf-dist/tex/latex/ctex/ctexrep.cls
 (d:/ProgramFiles/LaTex/texlive/2020/texmf-dist/tex/latex/ctex/config/ctexbacken
 d.cfg
@@ -592,6 +592,22 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (d:/ProgramFiles/LaTex/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
+) (d:/ProgramFiles/LaTex/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.st
+y
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip68
+\f@nch@O@elh=\skip69
+\f@nch@O@erh=\skip70
+\f@nch@O@olh=\skip71
+\f@nch@O@orh=\skip72
+\f@nch@O@elf=\skip73
+\f@nch@O@erf=\skip74
+\f@nch@O@olf=\skip75
+\f@nch@O@orf=\skip76
+)
+(d:/ProgramFiles/LaTex/texlive/2020/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 
 Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (SimSun(0)).
@@ -651,8 +667,8 @@ ext;"
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
 text;"
 
-) (./template.aux (./text.aux))
-\openout1 = `template.aux'.
+) (./main.aux (./sub/text.aux))
+\openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
@@ -757,7 +773,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
 * \topmargin=-38.1381pt
-* \headheight=12.0pt
+* \headheight=15.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
@@ -791,15 +807,18 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
 LaTeX Info: Redefining \nameref on input line 15.
- (./template.out) (./template.out)
+ (./main.out) (./main.out)
 \@outlinefile=\write3
-\openout3 = `template.out'.
+\openout3 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count317
- (./cover.tex
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 15.
+ (./sub/cover.tex
 File: fig/NCEPU_logo.png Graphic file (type bmp)
 <fig/NCEPU_logo.png>
 
@@ -834,56 +853,89 @@ Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
 ;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- (./template.toc)
+ (./main.toc)
 \tf@toc=\write4
-\openout4 = `template.toc'.
+\openout4 = `main.toc'.
 
- [1
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <10.53937> no
+t available
+(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
+t line 31.
+
+
+LaTeX Font Warning: Font shape `TU/SimSun(1)/m/sl' undefined
+(Font)              using `TU/SimSun(1)/m/n' instead on input line 31.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 31.
+
+[1
 
 
 
 ]
-\openout2 = `text.aux'.
+\openout2 = `sub/text.aux'.
 
- (./text.tex [2
-
+ (./sub/text.tex [2
 
 
 ] [3
 
 ]
 第一章
+File: fig/precession.png Graphic file (type bmp)
+<fig/precession.png>
+File: fig/precession_damping.png Graphic file (type bmp)
+<fig/precession_damping.png>
+File: fig/precession.png Graphic file (type bmp)
+<fig/precession.png>
+File: fig/precession_damping.png Graphic file (type bmp)
+<fig/precession_damping.png>
 [4
 
-]
+] [5] [6] [7]
 第二章
-[5
+File: fig/precession.png Graphic file (type bmp)
+<fig/precession.png>
+File: fig/precession_damping.png Graphic file (type bmp)
+<fig/precession_damping.png>
+[8
 
 ]
 第三章
-) [6
+) [9
+
+] (./main.bbl) 
+AED: lastpage setting LastPage
+[10
+
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
- (./template.aux (./text.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
-Package rerunfilecheck Info: File `template.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+ (./main.aux (./sub/text.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 39.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 58F8E3C4F599132F0EE56EEF069545AF;1336.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.41063pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
  ) 
 Here is how much of TeX's memory you used:
- 18706 strings out of 479699
- 386294 string characters out of 5884185
- 671078 words of memory out of 5000000
- 35649 multiletter control sequences out of 15000+600000
- 540876 words of font info for 91 fonts, out of 8000000 for 9000
+ 19029 strings out of 479699
+ 395666 string characters out of 5884185
+ 684767 words of memory out of 5000000
+ 35941 multiletter control sequences out of 15000+600000
+ 543717 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,5n,84p,434b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,13n,84p,831b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on template.pdf (7 pages).
+Output written on main.pdf (11 pages).

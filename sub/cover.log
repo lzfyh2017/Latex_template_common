@@ -1,0 +1,473 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.8.28)  29 AUG 2020 11:07
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**cover.tex
+(./cover.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-08-07>
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.10 ^^I\includegraphics
+                        [scale = 0.5]{fig/NCEPU_logo.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ^^I\includegraphics[
+                         scale = 0.5]{fig/NCEPU_logo.png}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no U in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.10 ^^I\includegraphics[scale = 0.5]{fig/NCEPU_
+                                                logo.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 10.
+! Extra }, or forgotten $.
+l.10 ...egraphics[scale = 0.5]{fig/NCEPU_logo.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.11 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (36.83223pt too wide) in paragraph at lines 10--11
+ []\OML/cmm/m/it/10 ogo:png$ 
+ []
+
+! Undefined control sequence.
+l.14   \zihao
+             {1}\textbf{{本科生毕业论文（设计）}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14   \zihao{1
+               }\textbf{{本科生毕业论文（设计）}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 本 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 科 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 生 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 毕 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 业 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 论 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 文 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no （ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 设 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 计 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ） in font [lmroman10-bold]:mapping=tex-text;!
+
+Overfull \hbox (30.8pt too wide) in paragraph at lines 14--15
+ []\TU/lmr/bx/n/10 本科生毕业论文（设计） 
+ []
+
+! Undefined control sequence.
+l.18   \zihao
+             {1}\textbf{ 我是大标题XXXX}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18   \zihao{1
+               }\textbf{ 我是大标题XXXX}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 我 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 是 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 大 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 标 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 题 in font [lmroman10-bold]:mapping=tex-text;!
+
+Overfull \hbox (48.76pt too wide) in paragraph at lines 18--19
+ \TU/lmr/bx/n/10 我是大标题XXXX 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{flushleft}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Environment spacing undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ^^I  \begin{spacing}
+                         {1.3}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 3 in font nullfont!
+! Undefined control sequence.
+l.30 ^^I^^I\hspace{27mm}\LARGE
+                              \selectfont{\textbf{论文编码：}\dunderline[-3pt]{1p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 论 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 文 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 编 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 码 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ： in font [lmroman10-bold]:mapping=tex-text;!
+
+Overfull \hbox (14.0pt too wide) in paragraph at lines 29--31
+\TU/lmr/bx/n/10 论文编码： 
+ []
+
+
+Overfull \hbox (221.93149pt too wide) in paragraph at lines 29--31
+[]  
+ []
+
+! Undefined control sequence.
+l.32 ^^I^^I\hspace{27mm}\LARGE
+                              \selectfont{\textbf{学\hspace{12.5mm}院：}\dunder...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 学 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 院 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ： in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 电 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 气 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 与 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 电 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 子 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 工 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 程 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 学 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 院 in font [lmroman10-regular]:mapping=tex-text;!
+
+Overfull \hbox (2.8pt too wide) in paragraph at lines 32--33
+\TU/lmr/bx/n/10 学 
+ []
+
+
+Overfull \hbox (5.6pt too wide) in paragraph at lines 32--33
+\TU/lmr/bx/n/10 院： 
+ []
+
+
+Overfull \hbox (221.93149pt too wide) in paragraph at lines 32--33
+[]  
+ []
+
+! Undefined control sequence.
+l.34 ^^I^^I\hspace{27mm}\LARGE
+                              \selectfont{\textbf{专\hspace{12.5mm}业：}\dunder...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 专 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 业 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ： in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 电 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 气 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 工 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 程 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 及 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 其 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 自 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 动 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 化 in font [lmroman10-regular]:mapping=tex-text;!
+
+Overfull \hbox (2.8pt too wide) in paragraph at lines 34--35
+\TU/lmr/bx/n/10 专 
+ []
+
+
+Overfull \hbox (5.6pt too wide) in paragraph at lines 34--35
+\TU/lmr/bx/n/10 业： 
+ []
+
+
+Overfull \hbox (221.93149pt too wide) in paragraph at lines 34--35
+[]  
+ []
+
+! Undefined control sequence.
+l.36 ^^I^^I\hspace{27mm}\LARGE
+                              \selectfont{\textbf{年\hspace{12.5mm}级：}\dunder...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 年 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 级 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ： in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 级 in font [lmroman10-regular]:mapping=tex-text;!
+
+Overfull \hbox (2.8pt too wide) in paragraph at lines 36--37
+\TU/lmr/bx/n/10 年 
+ []
+
+
+Overfull \hbox (5.6pt too wide) in paragraph at lines 36--37
+\TU/lmr/bx/n/10 级： 
+ []
+
+
+Overfull \hbox (221.93149pt too wide) in paragraph at lines 36--37
+[]  
+ []
+
+! Undefined control sequence.
+l.38 ^^I^^I\hspace{27mm}\LARGE
+                              \selectfont{\textbf{学\hspace{12.5mm}号：}\dunder...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 学 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 号 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ： in font [lmroman10-bold]:mapping=tex-text;!
+
+Overfull \hbox (2.8pt too wide) in paragraph at lines 38--39
+\TU/lmr/bx/n/10 学 
+ []
+
+
+Overfull \hbox (5.6pt too wide) in paragraph at lines 38--39
+\TU/lmr/bx/n/10 号： 
+ []
+
+
+Overfull \hbox (221.93149pt too wide) in paragraph at lines 38--39
+[]  
+ []
+
+! Undefined control sequence.
+l.40 ^^I^^I\hspace{27mm}\LARGE
+                              \selectfont{\textbf{学生姓名：}\dunderline[-3pt]{1p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 学 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 生 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 姓 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 名 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ： in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 付 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 裕 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 恒 in font [lmroman10-regular]:mapping=tex-text;!
+
+Overfull \hbox (14.0pt too wide) in paragraph at lines 40--41
+\TU/lmr/bx/n/10 学生姓名： 
+ []
+
+
+Overfull \hbox (221.93149pt too wide) in paragraph at lines 40--41
+[]  
+ []
+
+! Undefined control sequence.
+l.42 ^^I^^I\hspace{27mm}\LARGE
+                              \selectfont{\textbf{指导教师：}\dunderline[-3pt]{1p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 指 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 导 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 教 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 师 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ： in font [lmroman10-bold]:mapping=tex-text;!
+
+Overfull \hbox (14.0pt too wide) in paragraph at lines 42--43
+\TU/lmr/bx/n/10 指导教师： 
+ []
+
+
+Overfull \hbox (221.93149pt too wide) in paragraph at lines 42--43
+[]  
+ []
+
+! Undefined control sequence.
+l.44 ^^I^^I\hspace{27mm}\LARGE
+                              \selectfont{\textbf{完成日期：}\dunderline[-3pt]{1p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 完 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 成 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 日 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 期 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ： in font [lmroman10-bold]:mapping=tex-text;!
+
+! LaTeX Error: \begin{flushleft} on input line 28 ended by \end{spacing}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ^^I\end{spacing}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (14.0pt too wide) in paragraph at lines 44--46
+\TU/lmr/bx/n/10 完成日期： 
+ []
+
+
+Overfull \hbox (221.93149pt too wide) in paragraph at lines 44--46
+[]  
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.51 \end{titlepage}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+! Emergency stop.
+<*> cover.tex
+             
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 28 strings out of 479699
+ 533 string characters out of 5884185
+ 250125 words of memory out of 5000000
+ 17366 multiletter control sequences out of 15000+600000
+ 535104 words of font info for 31 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 18i,5n,15p,143b,174s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
